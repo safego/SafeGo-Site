@@ -374,3 +374,20 @@ h2{
 #email{
     color: white;
 }
+
+#imgM{
+    font-size: 12px;
+}
+#promo{
+    background-color: orangered;
+    color: white;
+}
+#btnmodal{
+    margin-bottom: 15px;
+}
+
+#pPromo{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+}
