@@ -7,6 +7,7 @@ html,
 body {
   height: 100%;
   width: 100%;
+  font-size: 16px;
 }
 body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
@@ -82,7 +83,7 @@ aside {
 }
 .navbar-default .navbar-header .navbar-toggle {
   font-weight: 700;
-  font-size: 12px;
+  font-size: 15px;
   color: #222222;
   text-transform: uppercase;
 }
@@ -95,7 +96,7 @@ aside {
 }
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
-  color: #f8da30;
+  color: #f8da30 !important;
 }
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
@@ -118,10 +119,10 @@ aside {
   .navbar-default .navbar-header .navbar-brand:focus {
     color: white;
   }
-  .navbar-default .nav > li > a,
+  /*.navbar-default .nav > li > a,
   .navbar-default .nav > li > a:focus {
     color: rgba(255, 255, 255, 0.7);
-  }
+  }*/
   .navbar-default .nav > li > a:hover,
   .navbar-default .nav > li > a:focus:hover {
     color: white;
@@ -156,9 +157,9 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/transito.jpg');
+  /*background-image: url('../img/transito.jpg');*/
   text-align: center;
-  color: white;
+  color: #333;
 }
 header .container {
   padding-top: 100px;
@@ -169,7 +170,7 @@ header img {
   margin: 0 auto 20px;
 }
 header h1 {
- padding-bottom: 20px;
+ /*padding-bottom: 20px;*/
 }
 header .intro-text .name {
   display: block;
@@ -184,8 +185,8 @@ header .intro-text .skills {
 }
 @media (min-width: 768px) {
   header .container {
-    padding-top: 200px;
-    padding-bottom: 100px;
+    /*padding-top: 200px;
+    padding-bottom: 100px;*/
   }
   header .intro-text .name {
     font-size: 4.75em;
@@ -394,4 +395,85 @@ h2{
 
 #cartao{
     margin-bottom: 30px;
+}
+
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+    height: 76px;
+}
+
+.navbar-default .nav > li > a, .navbar-default .nav > li > a:focus {
+    padding: 27px;
+}
+
+.navbar-default .navbar-header .navbar-toggle {
+    margin-top: 20px;
+}
+
+.container-hero {
+  padding-top: 75px
+}
+
+.btn-comprar {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  min-width: 200px;
+  font-size: 20px;
+  background-color: #53A318;
+  border-radius: 8px;
+  border: none;
+
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
+
+  outline: none;
+}
+
+.btn-comprar:hover {
+  background-color: #4c9316;
+}
+
+.ul-camera {
+  margin-top: 10px;
+  padding: 0;
+}
+
+.ul-camera li {
+  list-style: none;
+  padding: 5px;
+}
+
+.info-prod {
+  text-align: left;
+}
+
+.info-box {
+  border: solid 1px #ccc;
+  padding: 10px;
+  border-radius: 6px;
+  margin-top: 10px
+}
+
+.info-box.red {
+  border-color: red;
+  color: red
+}
+
+.tempo-wrapper {
+  text-align: center; 
+}
+
+.tempo-wrapper > div {
+  padding: 0px;
+  border-right: solid #fff
+}
+
+.tempo {
+  background: #000;
+  color: #fff;
+  padding: 7px;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
 }
