@@ -407,10 +407,10 @@ h2{
 .btn-comprar {
   display: block;
   padding: 20px;
-  color: #fff;
+  color: #000;
   min-width: 280px;
   font-size: 28px;
-  background-color: #53A318;
+  background-color: #ccc;
   border-radius: 10px;
   border: none;
   margin: 0px auto;
@@ -427,7 +427,7 @@ box-shadow: 8px 8px 20px -6px rgba(0,0,0,0.59);
 }
 
 .btn-comprar:hover {
-  background-color: #4c9316;
+  background-color: #ccc;
 }
 
 .ul-camera {
@@ -481,4 +481,14 @@ box-shadow: 8px 8px 20px -6px rgba(0,0,0,0.59);
 
 .navbar-default .navbar-nav>li>a {
      color: #ccc; 
+}
+
+.img-lista img {
+  border: solid 1px #ccc;
+  height: 86px;
+}
+
+#imgMudar {
+  border: solid 1px #ccc;
+  padding: 12px;
 }
